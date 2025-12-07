@@ -10,24 +10,27 @@ Enter: Progress in time
 
 Commands:
 
-production
-->shows how much ressources you are extracting and how much of it you are selling
+production [ressource] [number]
+-> changes how much of the ressource you are producing with the cost of storage capacity
+IMPORTANT: the number in the command doesnt set the number of the ressource you produce, it increases/decreases it
 
-capacity
--> Shows your factory overall capacity and capacity left to extract more ressources
-
-wood_production [number]
--> changes how much wood you are producing with the cost of storage capacity
-IMPORTANT: the number in the command doesnt set the number of wood you produce, it increases/decreases it
-
-wood_sell_amount [number]
-->sets how much of your wood you are selling
+sell_amount [ressource] [number]
+->sets how much of your ressource you are selling
 
 factory_upgrade
 ->increases your factory capacity by 1
 
 
 stats:
-wood production costs 1000
-wood price is 1100
+Wood (Production_Cost: 1000 Sell_cost: 1100)
+Iron (Production_Cost: 4000 Sell_cost: 5000)
+Silver (Production_Cost: 20000 Sell_cost: 25000)
+Gold (Production_Cost: 50000 Sell_cost: 60000)
+Platinum (Production_Cost: 250000 Sell_cost: 300000)
+
+chance to unlock iron: 1% per cycle
+chance to unlock silver: 0.2% per cycle
+chance to unlock gold: 0.05% per cycle
+chance to unlock platinum: 0.001% per cycle
+
 factory_upgrade cost is 10000xcurrentcapacity

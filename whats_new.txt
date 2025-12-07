@@ -1,0 +1,18 @@
+Patch 1:
+-New Ressources:
+->Iron (Production_Cost: 4000 Sell_cost: 5000)
+->Silver (Production_Cost: 20000 Sell_cost: 25000)
+->Gold (Production_Cost: 50000 Sell_cost: 60000)
+->Platinum (Production_Cost: 250000 Sell_cost: 300000)
+-Added a research mechanic
+->chance to unlock iron: 1% per cycle
+->chance to unlock silver: 0.2% per cycle
+->chance to unlock gold: 0.05% per cycle
+->chance to unlock platinum: 0.001% per cycle
+-Removed commands:
+->production
+->capacity
+-Changed Commands:
+-> wood_production to production
+-> wood_sell_amount to sell_amount
+-Improved UI
